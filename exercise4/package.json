@@ -1,0 +1,22 @@
+{
+  "name": "exercise4",
+  "enableBeta": true,
+  "version": "1.0.0",
+  "description": "ykit starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sudo ykit s --hot -p 3000",
+    "stop": "npm run stop"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "ykit-config-es6": "^3.2.1"
+  }
+}
